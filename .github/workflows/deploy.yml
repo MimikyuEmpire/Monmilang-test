@@ -63,9 +63,9 @@ jobs:
     needs: build
     environment:
       name: github-pages
-      url: ${{ steps.development.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: 部署到 GitHub Pages
-        id: development
+        id: deployment
         uses: actions/deploy-pages@v4
