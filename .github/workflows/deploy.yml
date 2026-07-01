@@ -1,9 +1,10 @@
-name: Deploy to GitHub Pages
+name: 部署至 GitHub Pages
 
 on:
   push:
     branches:
       - main
+      - write
 
 permissions:
   contents: read
@@ -18,35 +19,45 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - name: 拉取代码  
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v6
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v6
         with:
-          node-version: 24
-      - name: Cache dependencies
+          node-version: 22
+
+      - name: 缓存依赖项
         uses: actions/cache@v5
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - name: Cache Quartz plugins
+
+      - name: 缓存 Quartz 插件
         uses: actions/cache@v5
         with:
           path: .quartz/plugins
           key: ${{ runner.os }}-quartz-plugins-${{ hashFiles('**/plugins/**') }}
           restore-keys: |
             ${{ runner.os }}-plugins-
-      - name: Install Dependencies
+
+      - name: 安装依赖
         run: npm ci
-      - name: Install Quartz plugins
+
+      - name: 安装 Quartz 插件
         run: npx quartz plugin install
-      - name: Build Quartz
+
+      - name: 构建 Quartz
         run: npx quartz build
-      - name: Upload artifacts
+
+      - name: 上传构建结果
         uses: actions/upload-artifact@v4
         with:
+          name: github-pages
           path: public
 
   deploy:
@@ -56,6 +67,6 @@ jobs:
       url: ${{ steps.development.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
+      - name: 部署到 GitHub Pages
         id: development
         uses: actions/deploy-pages@v4
