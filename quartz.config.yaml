@@ -111,9 +111,9 @@ plugins:
   - source: github:quartz-community/fonts
     enabled: true
   - source: github:quartz-community/remove-draft
-    enabled: true
-  - source: github:quartz-community/explicit-publish
     enabled: false
+  - source: github:quartz-community/explicit-publish
+    enabled: true
   - source: github:quartz-community/unlisted-pages
     enabled: true
     options: {}
@@ -225,8 +225,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/MimikyuEmpire/Monmilang-test
+        Bilibili: https://space.bilibili.com/1551482785?spm_id_from=333.788.0.0
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
@@ -264,7 +264,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: default
+      theme: baseline
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
