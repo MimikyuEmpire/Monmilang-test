@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+title: 梦谜语语言手册 测试版
+date: 2026-07-02
+publish: true
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+这是梦谜语语言手册测试版
