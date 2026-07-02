@@ -54,7 +54,7 @@ jobs:
         run: npx quartz build
 
       - name: 上传构建结果
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
           path: public
