@@ -1,7 +1,11 @@
 ---
-title: Welcome to Quartz
+title: 梦谜语语言手册 测试版
+date: 2026-07-02
 publish: true
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+这是梦谜语语言手册测试版
+
+## 语言设定
+
+梦谜语是谜拟丘创造的黏着语，最终成为了宝可梦世界的通用语
