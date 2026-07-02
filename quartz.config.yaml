@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: Monmilang-test
-  pageTitleSuffix: "-development"
+  pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: zh-CN
-  baseUrl: MimikyuEmpire.github.io.Monmilang-test
+  baseUrl: MimikyuEmpire.github.io/Monmilang-test
   ignorePatterns:
     - private
     - templates
