@@ -8,7 +8,8 @@
 
 网页使用 [Quartz](https://quartz.jzhao.xyz/) 生成，用 [GitHub Pages](https://docs.github.com/en/pages) 托管
 
----
+## 项目变更
 
-> [!tip] 译名变更
-> 梦谜语的英文名暂时翻译为 *Monmish*
+项目目前更新内容：梦谜语的发音（包括音系、正字法和拼写规则）
+
+- 2026-07-03 译名变更：梦谜语的英文名暂时决定由 *Monmilang* 调整为 *Monmish*。
