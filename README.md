@@ -1,17 +1,14 @@
-# Quartz v5
+# Docs of Monmish (Test)
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+这是梦谜语语言手册的测试版本，主要目的是为语言手册的正式版本作准备
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+[由此查看手册内容](https://mimikyuempire.github.io/Monmilang-test/)
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## 使用工具
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+网页使用 [Quartz](https://quartz.jzhao.xyz/) 生成，用 [GitHub Pages](https://docs.github.com/en/pages) 托管
 
-## Sponsors
+---
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+> [!tip] 译名变更
+> 梦谜语的英文名暂时翻译为 *Monmish*
