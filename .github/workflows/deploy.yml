@@ -58,7 +58,6 @@ jobs:
         with:
           name: github-pages
           path: public
-          node-version: 24
 
   deploy:
     needs: build
