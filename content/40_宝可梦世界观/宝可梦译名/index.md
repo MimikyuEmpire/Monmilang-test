@@ -1,5 +1,5 @@
 ---
-title: 宝可梦命名
+title: I 宝可梦命名
 date: 2026-08-17
 publish: true
 ---
